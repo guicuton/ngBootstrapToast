@@ -1,12 +1,12 @@
-.directive('ngBootstrapToast', function(){
+app.directive('ngBootstrapToast', function(){
   return {
     restrict: 'E',
     scope: {
-      title: '@',
+      title:  '@',
       avatar: '@',
-      message: '@',
-      tid: '@',
-      delay: '@'
+      message:'@',
+      tid:    '@',
+      delay:  '@'
     },
     template:
     "<div class='toast fade mb-4' id='{{tid}}' role='alert' aria-live='assertive' aria-atomic='true'>"+
