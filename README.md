@@ -64,5 +64,5 @@ $scope.toasters = [
   }
 ]
 ```
-#Limitations
+# Limitations
 This directive were not tested on older or different version what are used on src files or plunker demo
