@@ -1,16 +1,17 @@
-angular.module('main',[]).controller('mainCtrl', ['$scope', function(s){
+const app = angular.module('main',[]);
+app.controller('mainCtrl', ['$scope', function(s){
     s.toasters = [
         {
             delay: 10000,
             avatar: 'my/image/url.jpg',
-            title: 'Isso e um teste',
-            message: 'Aqui o texto legalzao'
+            title: 'My first title',
+            message: 'My first message with details'
         },
         {
             delay: 10000,
             avatar: 'my/image/url.jpg',
-            title: 'Isso e um teste 2',
-            message: 'Aqui o texto legalzao 2'
+            title: 'My second title',
+            message: 'My second message with details'
         }
     ];
 }]);
